@@ -1,0 +1,33 @@
+{
+  "name": "test-your-pc",
+  "version": "2.0.0",
+  "description": "Ultimate Multi-Core Hardware Benchmark & HTTP Load Testing Suite",
+  "main": "dashboard.js",
+  "scripts": {
+    "start": "node --max-old-space-size=8192 dashboard.js",
+    "dashboard": "node --max-old-space-size=8192 dashboard.js",
+    "load-test": "npx artillery run load-test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:HackerJaatWorld/Test-your-pc-.git"
+  },
+  "keywords": [
+    "load-testing",
+    "benchmark",
+    "hardware-stress",
+    "multi-core",
+    "ram-stress",
+    "cpu-burner",
+    "artillery",
+    "stress-testing",
+    "telemetry"
+  ],
+  "author": "HackerJaatWorld",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "artillery": "^2.0.34",
+    "typescript": "^7.0.2"
+  }
+}
